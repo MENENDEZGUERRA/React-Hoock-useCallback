@@ -23,7 +23,9 @@ const Card = () => {
       <h3>Contador: {counter}</h3>
       
       <OptimizedButton onClick={generateRandom} />
+      <img src='https://web.archive.org/web/20090727125510/http://www.geocities.com/Heartland/Fields/2162/pinkrose.gif' alt='Pink'></img>
       <NormalButton onClick={addCounter} />
+      
     </div>
   );
 };
